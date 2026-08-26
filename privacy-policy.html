@@ -1,0 +1,157 @@
+<!doctype html>
+<!--
+  Garden's privacy policy.
+
+  This is the page the app's Settings → Privacy Policy link opens, and the page
+  App Review opens from the App Store Connect "Privacy Policy URL" field. It is
+  kept in the repo so it is versioned and reviewable alongside the claims it
+  makes, but it must be PUBLISHED for either of those links to work. See
+  docs/publishing-the-privacy-policy.md.
+
+  The published URL must match `privacyPolicyUrl` in
+  lib/features/settings/settings_sheet.dart, including capitalisation —
+  GitHub Pages paths are case-sensitive.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Garden — Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    max-width: 44rem;
+    margin: 0 auto;
+    padding: 2rem 1.25rem 4rem;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  h1 { font-size: 1.75rem; margin-bottom: 0.25rem; }
+  h2 { font-size: 1.15rem; margin-top: 2.25rem; }
+  .date { opacity: 0.7; font-size: 0.9rem; }
+  .lede {
+    border-left: 3px solid #2E8B4F;
+    padding: 0.75rem 0 0.75rem 1rem;
+    margin: 1.75rem 0;
+    font-size: 1.05rem;
+  }
+  code { font-size: 0.9em; }
+</style>
+</head>
+<body>
+
+<h1>Garden — Privacy Policy</h1>
+<p class="date">Last updated 26 August 2026</p>
+
+<p class="lede">
+  <strong>Garden does not collect your data.</strong> There is no account to
+  create, no analytics, no advertising, and no third-party tracking of any kind.
+  What you record in Garden stays on your device unless you deliberately send it
+  somewhere.
+</p>
+
+<h2>What Garden stores, and where</h2>
+<p>
+  Garden keeps your habits, tasks, cultivation progress, Academy coursework,
+  Adventurer's Guild characters, marketplace purchases and app settings in its
+  own storage on your device. None of it is transmitted to us. We operate no
+  server that receives it, and we could not read it if we wanted to.
+</p>
+<p>
+  This local data is included in your device backups according to your own iOS
+  settings — with one deliberate exception described below.
+</p>
+
+<h2>Your Foundry VTT server password</h2>
+<p>
+  If you connect Garden to a Foundry Virtual Tabletop server, you may ask Garden
+  to remember that server's password. It is stored in the iOS Keychain, marked
+  as available only on this device while unlocked, and it is never included in a
+  backup and never synced to iCloud. You may additionally require Face ID,
+  Touch ID or your device passcode before it can be read. You can remove it at
+  any time from Settings → Foundry VTT.
+</p>
+
+<h2>Connecting to a Foundry VTT server</h2>
+<p>
+  Foundry sync sends your character sheet to the server address <em>you</em>
+  enter, and nowhere else. That server is normally your own machine or your
+  game group's, on your own network. We are not a party to that connection, we
+  do not proxy it, and we receive nothing from it. What the operator of that
+  server can see is governed by their arrangements, not ours.
+</p>
+
+<h2>Files you export or import</h2>
+<p>
+  When you export a character or a shop, Garden hands the file to you through
+  the system share sheet or file picker. Where it goes from there — Files,
+  AirDrop, a messaging app, a cloud drive — is your choice, and the privacy
+  terms of whatever you chose apply to it from that point.
+</p>
+
+<h2>Videos in the Academy</h2>
+<p>
+  Academy coursework plays videos hosted on YouTube, either in an embedded
+  player inside Garden or by opening YouTube directly. When a video plays,
+  <strong>YouTube and Google receive a request from your device</strong> and may
+  set cookies and collect information under their own terms, exactly as if you
+  had visited YouTube in a browser. Garden does not receive, store or have
+  access to any of that information. See
+  <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.
+</p>
+<p>
+  If you would rather not involve YouTube at all, simply do not open a video
+  lesson; the rest of the app does not contact it.
+</p>
+
+<h2>Notifications</h2>
+<p>
+  Reminders are scheduled locally on your device. Garden uses no push server, so
+  no notification content ever leaves the device.
+</p>
+
+<h2>What we never do</h2>
+<ul>
+  <li>We do not collect, transmit or store your personal data.</li>
+  <li>We do not sell or share data with anyone, because we have none to share.</li>
+  <li>We include no analytics, attribution, advertising or crash-reporting SDK.</li>
+  <li>We do not track you across apps or websites.</li>
+</ul>
+
+<h2>Children</h2>
+<p>
+  Garden is a personal-development and tabletop-companion app suitable for
+  general audiences. Because it collects no personal information from anyone, it
+  collects none from children.
+</p>
+
+<h2>Deleting your data</h2>
+<p>
+  Deleting Garden from your device removes everything it stored, including the
+  saved Foundry password in the Keychain. There is no copy elsewhere for us to
+  delete on your behalf.
+</p>
+
+<h2>Licensing note</h2>
+<p>
+  Garden includes material from the System Reference Document 5.2.1, used under
+  the Creative Commons Attribution 4.0 International licence; changes were made.
+  Full attribution is in the app under Settings → Licenses &amp; attribution.
+  This is a licensing
+  matter rather than a privacy one, noted here only because people often look
+  for it on this page.
+</p>
+
+<h2>Changes to this policy</h2>
+<p>
+  If this policy changes, the date at the top changes with it. Because the app
+  collects nothing, we do not expect substantive changes.
+</p>
+
+<h2>Contact</h2>
+<p>
+  Questions about this policy:
+  <a href="mailto:Help@xheroism.org">Help@xheroism.org</a>
+</p>
+
+</body>
+</html>
